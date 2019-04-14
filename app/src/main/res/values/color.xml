@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="transparent">#00000000</color>
+    <color name="tools_black">#000000</color>
+    <color name="tools_red">#FF0000</color>
+    <color name="tools_orange">#FFA500</color>
+    <color name="tools_green">#008000</color>
+    <color name="tools_white">#FFFFFF</color>
+    <color name="listTitle">#ff23323b</color>
+    <color name="write">#ffffffff</color>
+    <color name="blue">#2161f1</color>
+    <color name="gray">#924813</color>
+    <color name="BS_LIST_CITY_BACK">#F3F3F3</color>
+    
+    
+    <color name="BS_LIST_ITEM_INFO">#F59A99</color>
+    
+        <color name="item_bg_color">#4d000000</color>
+        <color name="child_rull_color">#6E6F71</color>
+        
+        <!-- 检查页面 -->
+         <color name="BS_CHECK_SUB_PRO_BACK">#F3F3F3</color>
+</resources>

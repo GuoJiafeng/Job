@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tools_white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:text="职位名称"
+            android:textColor="@color/tools_red"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" >
+
+        <EditText
+            android:id="@+id/serch_value"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/input_background"
+            android:gravity="center_vertical"
+            android:hint="输入要查询的职位名称"
+            android:inputType="text"
+            android:maxLength="10"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:textSize="18sp" 
+            android:imeOptions="actionDone"/>
+
+     
+    </RelativeLayout>
+
+    
+
+    <ImageView
+        android:id="@+id/bt_serch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ok_selector"
+        android:textSize="18sp" />
+
+</LinearLayout>

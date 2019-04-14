@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/tools_white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/pubtitle"/>
+
+    
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="46.7dip" 
+	    android:background="@color/BS_CHECK_SUB_PRO_BACK" >
+	    
+	    <TextView
+	       android:id="@+id/company_tile"
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:layout_centerVertical="true"
+	       android:gravity="center"
+	       android:textSize="16sp"
+	       android:textColor="#414042"
+	       android:text="xxx公司" />
+	   
+
+	</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tools_white" >
+	    
+	   <Button
+	            android:id="@+id/btn_submit_all"
+	            android:layout_width="fill_parent"
+	            android:layout_height="40dip"
+	            android:layout_alignParentBottom="true"
+	            android:text="投递简历"
+	            android:textColor="@color/tools_black"
+	            android:textSize="18sp" />
+	   
+
+	
+  
+	
+    <ScrollView
+        android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_above="@id/btn_submit_all" >
+
+    <LinearLayout
+        android:id="@+id/headView"
+        android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@color/tools_white"
+	    android:orientation="vertical"
+	    android:padding="16.7dip" >
+        
+        <TextView
+            android:id="@+id/position"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:singleLine="true"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3"
+			android:layout_marginBottom="10dip"
+			android:text="职位名称：web前端工程师" />
+        
+        
+           <TextView
+                android:id="@+id/zhaopin_count"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:singleLine="true"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3"
+			android:layout_marginBottom="10dip"
+			android:text="招聘人数：5人" />
+        
+      <TextView
+                android:id="@+id/yuexin"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:singleLine="true"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3"
+			android:layout_marginBottom="10dip"
+			android:text="薪水范围：面议" />
+     
+                
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:singleLine="true"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3"
+			android:layout_marginBottom="10dip"
+			android:text="发布日期：2015-05-04" />
+        
+      
+        
+
+                
+        <TextView
+            android:id="@+id/loc"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:singleLine="true"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3"
+			android:layout_marginBottom="10dip"
+			android:text="工作地点：南京" />
+        
+        
+            <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dip"
+            android:background="#cccccc" />
+                
+            <TextView
+            android:id="@+id/nianxian"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:singleLine="true"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3"
+			android:layout_marginBottom="10dip"
+			android:text="工作年限：2年" />
+        
+     
+        <TextView
+            android:id="@+id/xueli"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:singleLine="true"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3"
+			android:layout_marginBottom="10dip"
+			android:text="学历要求：本科" />
+        
+       
+        
+             
+                
+        <TextView
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:singleLine="true"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3"
+			android:layout_marginBottom="10dip"
+			android:text="岗位职责：" />
+        
+        <TextView
+            android:id="@+id/zhize"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3" 
+			android:text="1、根据产品UI设计图，利用PS、DW等开发工具进行切图、开发web前端页面；
+2、持续的优化前端体验和页面相应速度，并保证兼容性和执行效率；
+3、配合后台开发工程师一起讨论技术实现方案，进行应用及系统整合。"/>
+        
+
+        <TextView
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:singleLine="true"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3"
+			android:layout_marginTop="10dip"
+			android:layout_marginBottom="10dip"
+			android:text="任职资格：" />
+        
+        <TextView
+            android:id="@+id/zige"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3" 
+			android:text="1、计算机相关专业毕业，3年以上工作经验；
+2、熟练掌握web前端技术：css/css3、js、html5、jquery 等。"/>
+        
+        <TextView
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:singleLine="true"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3"
+			android:layout_marginTop="10dip"
+			android:layout_marginBottom="10dip"
+			android:text="福利待遇：" />
+        
+        <TextView
+            android:id="@+id/fuli"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3" 
+			android:text="1、五险一金
+2、带薪年假
+3、传统节假日福利
+4、年终奖金
+5、不定期旅游、团队活动"/>
+        
+           <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dip"
+            android:background="#cccccc" />
+           
+      
+        
+        <TextView
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:singleLine="true"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3"
+			android:layout_marginBottom="10dip"
+			android:text="公司性质：" />
+        
+        <TextView
+            android:id="@+id/xinzhi"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3" 
+			android:text="民营公司"/>
+        
+         <TextView
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:singleLine="true"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3"
+			android:layout_marginBottom="10dip"
+			android:text="公司规模：" />
+        
+        <TextView
+            android:id="@+id/guimo"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3" 
+			android:text="50-150人"/>
+        
+        
+         <TextView
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:singleLine="true"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3"
+			android:layout_marginBottom="10dip"
+			android:text="公司地址：" />
+        
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:textColor="#b3b3b3" 
+			android:text="南京市秦淮区菱角市66号国家领军人才创业园11幢1层"/>
+        
+ 
+ 
+    </LinearLayout>
+
+
+    </ScrollView>
+
+     </RelativeLayout>
+            
+</LinearLayout>

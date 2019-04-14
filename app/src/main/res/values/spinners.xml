@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    <string-array name="sexs">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    
+    
+     <string-array name="nianxians">
+        <item>应届毕业生</item>
+        <item>1年</item>
+        <item>2年</item>
+        <item>3-4年</item>
+        <item>5-7年</item>
+    </string-array>
+    
+     
+     
+   
+    
+     <string-array name="hunyings">
+        <item>未婚</item>
+        <item>已婚</item>
+    </string-array>
+    
+       <string-array name="zhengzhis">
+        <item>群众</item>
+        <item>团选</item>
+        <item>党员</item>
+    </string-array>
+    
+       
+         <string-array name="xuelis">
+        <item>大专</item>
+        <item>本科</item>
+    </string-array>
+    
+      <string-array name="yuexins">
+        <item>面议</item>
+        <item>3000-4499</item>
+        <item>4500-7999</item>
+        <item>8000-9999</item>
+        <item>10000以上</item>
+    </string-array> 
+    
+</resources>

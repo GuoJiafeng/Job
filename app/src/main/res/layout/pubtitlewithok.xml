@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/publictitle_background"
+    android:gravity="center_vertical" >
+
+    <Button
+        android:id="@+id/imageViewBack"
+        android:layout_width="45dip"
+        android:layout_height="35dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="8dip"
+        android:background="@drawable/backimage_background"
+        android:gravity="center"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/titleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dip"
+        android:gravity="center_vertical"
+        android:textColor="@color/tools_white"
+        android:textSize="22dip" />
+
+    <Button
+        android:id="@+id/okbtn"
+        android:layout_width="45dip"
+        android:layout_height="35dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="8dip"
+        android:background="@drawable/viewbtn_background"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@color/tools_white"
+        android:textSize="17sp" >
+    </Button>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/tools_white"
+    android:orientation="vertical" >
+
+  <include layout="@layout/pubtitlewithadd"/>
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/BS_LIST_CITY_BACK" >
+
+        <Button
+        android:id="@+id/interview"
+        android:layout_width="80dip"
+        android:layout_height="35dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="8dip"
+        android:background="@drawable/viewbtn_background"
+        android:gravity="center"
+        android:text="面试邀请"
+        android:textColor="@color/tools_white"
+        android:textSize="17sp" >
+    </Button>
+
+        
+        <Button
+        android:id="@+id/search"
+        android:layout_width="80dip"
+        android:layout_height="35dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="8dip"
+         android:layout_marginRight="10dp"
+        android:background="@drawable/viewbtn_background"
+        android:gravity="center"
+        android:text="职位搜索"
+        android:textColor="@color/tools_white"
+        android:textSize="17sp"
+        >
+    </Button>
+     
+        
+    </RelativeLayout>
+   
+
+	<ListView
+	    android:id="@+id/car_number_list"
+	    android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/transparent_list_bg" />
+
+</LinearLayout>
